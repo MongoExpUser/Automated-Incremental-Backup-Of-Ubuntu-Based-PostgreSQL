@@ -13,7 +13,7 @@ This repository contains the bash scripts and configuration file that can be use
 
 ### Implementation Architectural Diagram
 ![Image description](https://github.com/MongoExpUser/Automated-Incremental-Backup-Of-Ubuntu-Based-PostgreSQL/blob/main/psql-incremental-backup-arch-diagram.png)
-Figure 1: Architectural Diagram of PostgreSQL Incremental Backup and Upload to Object Storage:
+Figure 1: Architectural Diagram of PostgreSQL Incremental Backup and Upload to Object Storage.
 ##
 
 ### Tools
