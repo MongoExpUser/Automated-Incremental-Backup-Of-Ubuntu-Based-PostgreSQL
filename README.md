@@ -28,12 +28,12 @@ The following tools are used:
 
 ### Steps to Deploy
 The Steps involved in using the bash scripts and the configuration file are as follows:
-- Step-1: Install PostgreSQL and modify configuration files
+- Step-1: Install PostgreSQL and Modify Configuration Files
 	- Use the script named  <strong> install-config-psql.sh </strong> in the repository for this step, with the following command:
    	  sudo bash install-psql.sh 
 
-- Step-2: Set the atomated backups
-	- Use the script named <strong> auto-incremental-backup.sh </strong> in the repository for this step, with following commands, on a screen that runs in the background:
+- Step-2: Set up Automated Backups
+	- Use the script named <strong> auto-incremental-backup.sh </strong> in the repository for this step, with the following commands, on a screen that runs in the background:
 	  - if [[ -f tasks.log ]]; then  echo 'Deleting message log file...'; sudo rm tasks.log; fi                                              
 	  - sudo echo '#.. ' > tasks.log && sudo chmod 777 tasks.log                                                                             
 	  - sudo chmod u+x incrementa-backup.sh && sudo bash incrementa-backup.sh >> tasks.log 2>&1  
