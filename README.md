@@ -1,4 +1,4 @@
-## Automated Incremental Backup Of Ubuntu-Based PostgreSQL
+## Automated Incremental Backup of Ubuntu-Based PostgreSQL
 
 ### Purpose: PostgreSQL Incremental Backup                                                                                        
 - The recently released PostgreSQL 17 (Sept-26-2024) has incremental backup feature like other databases like Oracle, SQL Server and MySQL.
