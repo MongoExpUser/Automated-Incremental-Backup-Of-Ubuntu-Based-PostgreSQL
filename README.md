@@ -47,4 +47,4 @@ The Steps involved in using the bash scripts and the configuration file are as f
 
 Copyright © 2024. MongoExpUser
 
-Licensed under the Apache 2.0 license.
+Licensed under the Apache License 2.0
