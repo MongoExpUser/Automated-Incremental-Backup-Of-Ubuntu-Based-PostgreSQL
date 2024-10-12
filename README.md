@@ -43,8 +43,9 @@ The Steps involved in using the bash scripts and the configuration file are as f
 	  - if [[ -f tasks.log ]]; then  echo 'Deleting message log file...'; sudo rm tasks.log; fi                                              
 	  - sudo echo '#.. ' > tasks.log && sudo chmod 777 tasks.log                                                                             
 	  - sudo chmod u+x auto-incremental-backup.sh && sudo bash auto-incremental-backup.sh >> tasks.log 2>&1
-- Step-3: Check the log file for status with the tail command as follows:
-        - sudo tail -n 500 -f tasks.log 
+- Step-3: Check Status
+  	- Inspect the tasks.log file for status with the tail command as follows:
+  	  - sudo tail -n 500 -f tasks.log 
     
 - Note: The script takes the initial full backup, and takes incremental backup, merging backups and uploading merged backups to object storage at set interval 
 ##
