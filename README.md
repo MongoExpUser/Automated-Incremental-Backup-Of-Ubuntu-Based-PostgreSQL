@@ -16,7 +16,7 @@ This repository contains the bash scripts and configuration file that can be use
 Figure 1: Architectural Diagram of PostgreSQL Incremental Backup and Upload to Object Storage.
 ##
 
-### Sample Object Storage (S3 Bucket) Upload
+### Sample Upload
 ![Image description](https://github.com/MongoExpUser/Automated-Incremental-Backup-Of-Ubuntu-Based-PostgreSQL/blob/main/psql-incremental-sample-s3-upload.png)
 Figure 2: Sample Object Storage (S3 Bucket) Upload
 ##
