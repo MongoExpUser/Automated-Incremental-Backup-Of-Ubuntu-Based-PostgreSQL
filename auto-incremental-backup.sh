@@ -34,7 +34,7 @@
 
 
 # define common variables
-nth=10                                                                          # only 5 times - use this for testing
+nth=5                                                                           # only 5 times - use this for testing
 testTnterval=600                                                                # every 600 seconds - use this for testing
 interval=86400                                                                  # every one-day (86400) or every 6 hours (21600)
 specified='true'                                                                # set this to true for testing
