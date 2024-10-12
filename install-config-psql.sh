@@ -59,7 +59,6 @@ configure()
     sudo -u postgres psql -c "SHOW summarize_wal;"
     sudo -u postgres psql -c "CREATE ROLE backup_user WITH CREATEROLE CREATEDB LOGIN ENCRYPTED PASSWORD 'mypasd';"
     sudo -u postgres psql -c "ALTER ROLE backup_user WITH SUPERUSER;"
-    sudo -u postgres psql -c "SHOW summarize_wal;"
     # b. stop server and update pg_hba.conf file: ensure the modified pg_hba.conf file is in the current working directory (CWD)
     sudo service postgresql stop
     sudo cp /etc/postgresql/17/main/pg_hba.conf /etc/postgresql/17/main/pg_hba.conf.backup
