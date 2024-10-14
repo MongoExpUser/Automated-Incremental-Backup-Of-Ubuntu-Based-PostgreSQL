@@ -151,7 +151,7 @@ run()
         echo '-----------------------------------------'
     fi
 
-    # stop initial full backup before  next incremental backup
+    # set initial full backup to "false" before next incremental backup, to avoid taking initial full backup again
     initial_full="false"
 }
 
