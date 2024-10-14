@@ -52,7 +52,7 @@ install()
 
 configure()
 {
-    # a. sleep for , set summarize_wal, reload and confirm - note: summarize_wal is a parameter in the postgresql.conf file
+    # a. sleep, set summarize_wal, reload and confirm - note: summarize_wal is a parameter in the postgresql.conf file
     sudo sleep 10
     sudo -u postgres psql -c "ALTER SYSTEM SET summarize_wal = 'ON';"
     sudo -u postgres psql -c "SELECT pg_reload_conf();"
