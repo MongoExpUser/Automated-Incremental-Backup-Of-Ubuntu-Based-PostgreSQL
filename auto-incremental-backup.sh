@@ -53,7 +53,7 @@ merge='/var/lib/postgresql/17/main/data'
 aws_credential_profile_name='default' # ensure that profile is configured on the Ubuntu OS => See: https://docs.aws.amazon.com/cli/latest/reference/configure/
 
 
-# configure some S3 options programatically
+# configure some S3 options programmatically
 sudo aws configure set default.s3.max_concurrent_requests 20 --profile $aws_credential_profile_name
 sudo aws configure set default.s3.max_bandwidth 100MB/s --profile $aws_credential_profile_name
 sudo aws configure set default.s3.multipart_threshold 10MB --profile $aws_credential_profile_name
