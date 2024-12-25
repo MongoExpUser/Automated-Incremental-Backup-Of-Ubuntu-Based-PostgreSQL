@@ -1,8 +1,9 @@
 ## Automated Incremental Backup of Ubuntu-Based PostgreSQL
 
 ### Purpose: PostgreSQL Incremental Backup                                                                                        
-- The recently released PostgreSQL 17 (Sept-26-2024) has incremental backup feature like Oracle, SQL Server and MySQL.
+- The recently released PostgreSQL 17 (Sept-26-2024) has incremental backup feature like Oracle, SQL Server and MySQL. 
 - See the realease note here: https://www.postgresql.org/docs/current/release-17.html
+- This repo contains scripts that can be used for automating the feature.
 ##
 
 ### Repository Summary
